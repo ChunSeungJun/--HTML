@@ -1,0 +1,82 @@
+<!DOCTYPE html><html><head>
+    <style>
+body {
+background-color: aliceblue;
+font-family: Gothic, sans-serif;
+}
+
+.box-container {
+white-space: nowrap;
+}
+
+.box-container {
+  display: flex; 
+}
+
+.box {
+  background-color: yellowgreen;
+  padding: 10px;
+  border: 1px solid peru;
+  margin: 10px;
+  text-align: center;
+  width: 100px;
+  height: 20px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  transition: height 2s ease;
+}
+
+.box:hover {
+  height: 40px; 
+}
+
+.list {
+  background-color: pink;
+  border: none;
+  margin: 10px;
+  padding: 3px;
+}
+
+.list li {
+  margin: 10px;
+  list-style-position: inside;
+}
+
+#exam{
+    color: blue;
+  text-align: center;
+  text-shadow: 3px 3px 5px grey;
+}
+
+#content{
+    text-indent: 3em;
+}
+
+.a1 {
+    background-color: yellow;
+    color: blue;
+    font-weight: bold;
+    font-family: '휴먼편지체', sans-serif;
+}
+.a2 {
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+}
+
+   </style></head>
+<body>
+    <ul class="box-container">
+        <li class="box">게임콘텐츠과</li>
+        <li class="box">교육내용</li>
+        <li class="box">설문내용</li>
+      </ul>
+
+<h1 id="exam">기말고사</h1>
+<h3 id="content">배우는 내용</h3>
+<ol class="list">
+<li>2D그래픽디자인</li><li>C언어</li><li class=a1>엡페이지구현</li>
+</ol>
+<p class=a2>Copyright 2018 by Tongwon</p>
+</body></html>
